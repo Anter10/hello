@@ -7,7 +7,7 @@ function execute(cmd) {
 
 
 function build_game() {
-    execute(`/Applications/CocosCreator2.2.2.app/Contents/MacOS/CocosCreator --path ./ --build "platform=android;debug=true;previewWidth=720;previewHeight=1280;apiLevel=30"`)
+    execute(`/Applications/CocosCreator/Creator/2.4.2/CocosCreator.app/Contents/MacOS/CocosCreator --path ./ --build "platform=android;debug=true;previewWidth=720;previewHeight=1280;apiLevel=30"`)
     console.log("build game succeed.");
     const pack_apk = "cd ./build/jsb-link/frameworks/runtime-src/proj.android-studio && ./gradlew assembleDebug";
     execute(pack_apk);
