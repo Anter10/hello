@@ -7,7 +7,7 @@ function execute(cmd) {
 
 
 function build_game() {
-    execute(`/Applications/CocosCreator2.2.2.app/Contents/MacOS/CocosCreator --path ../../ --build "platform=web-desktop;debug=true;previewWidth=720;previewHeight=1280"`)
+    execute(`/Applications/CocosCreator2.2.2.app/Contents/MacOS/CocosCreator --path ./ --build "platform=web-desktop;debug=true;previewWidth=720;previewHeight=1280"`)
     console.log("build game succeed.");
 }
 
