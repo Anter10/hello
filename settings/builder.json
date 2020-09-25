@@ -23,7 +23,8 @@
   "fb-instant-games": {},
   "android": {
     "REMOTE_SERVER_ROOT": "",
-    "packageName": "org.cocos2d.demo"
+    "packageName": "org.cocos2d.demo",
+    "apiLevel":"android30"
   },
   "ios": {
     "REMOTE_SERVER_ROOT": "",
