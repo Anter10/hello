@@ -12,7 +12,7 @@ function build_game() {
 }
 
 function main() {
-    console.log("当前Jenkins的构建参数 = ",process.argv);
+    console.log("当前Jenkins的构建参数 = ",process.env.debug);
     build_game();
 }
 

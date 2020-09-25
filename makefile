@@ -1,2 +1,2 @@
 hello:
-	node pack.js
+	node pack.js 
