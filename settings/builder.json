@@ -21,6 +21,7 @@
   "xxteaKey": "f6ed9148-6832-4d",
   "zipCompressJs": true,
   "fb-instant-games": {},
+  "apiLevel":"30",
   "android": {
     "REMOTE_SERVER_ROOT": "",
     "packageName": "org.cocos2d.demo",
