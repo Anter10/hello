@@ -18,14 +18,12 @@
   "md5Cache": true,
   "nativeMd5Cache": true,
   "encryptJs": true,
-  "xxteaKey": "f6ed9148-6832-4d",
+  "xxteaKey": "af1a111a-82a1-4f",
   "zipCompressJs": true,
   "fb-instant-games": {},
-  "apiLevel":"30",
   "android": {
     "REMOTE_SERVER_ROOT": "",
-    "packageName": "org.cocos2d.demo",
-    "apiLevel":"android30"
+    "packageName": "org.cocos2d.demo"
   },
   "ios": {
     "REMOTE_SERVER_ROOT": "",
@@ -43,7 +41,7 @@
     "width": 1280
   },
   "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
+    "REMOTE_SERVER_ROOT": "http://10.1.25.171:7456/preview-android-instant/",
     "host": "",
     "packageName": "org.cocos2d.demo",
     "pathPattern": "",
@@ -51,5 +49,6 @@
     "scheme": "https",
     "skipRecord": false
   },
-  "appBundle": false
+  "appBundle": false,
+  "includeAnySDK": false
 }

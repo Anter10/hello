@@ -28,16 +28,5 @@
   "migrate-history": [
     "cloud-function"
   ],
-  "last-module-event-record-time": 1601016735496,
-  "assets-sort-type": "name",
-  "facebook": {
-    "enable": false,
-    "appID": "",
-    "live": {
-      "enable": false
-    },
-    "audience": {
-      "enable": false
-    }
-  }
+  "last-module-event-record-time": 1601029759527
 }
